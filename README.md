@@ -26,7 +26,6 @@ This routing mechanism does not distinguish between HTTP verbs. They are all the
 See **/Rapid/index.php** for more info
 
 
-
 **Defined**
 
 Defined is a REST router with the following possible routes:
