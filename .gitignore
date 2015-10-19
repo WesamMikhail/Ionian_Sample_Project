@@ -1,0 +1,9 @@
+vendor
+.idea
+composer.lock
+
+/Defined/vendor
+/Defined/composer.lock
+
+/Rapid/vendor
+/Rapid/composer.lock
