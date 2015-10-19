@@ -11,7 +11,7 @@ The second one is using Defined which is a REST Router that supports GET, POST, 
 composer install
 ```
 
-2. After running the composer command, import the **articles.sql** file into your mysql DB. The DB name should later on be inserted into settings.json in each folder
+2. After running the composer command, import the **articles.sql** file into your mysql DB. The DB name should later on be inserted into **settings.json in each folder**
 
 # Usage
 
@@ -23,7 +23,7 @@ This means that **GET /articles/list** will initiate **ArticlesController->listA
 
 This routing mechanism does not distinguish between HTTP verbs. They are all the same!
 
-see /Rapid/index.php for more info
+See **/Rapid/index.php** for more info
 
 
 
@@ -31,8 +31,8 @@ see /Rapid/index.php for more info
 
 Defined is a REST router with the following possible routes:
 
-- GET /articles         will redirect to ArticlesController->listAll()
-- GET /articles/1       will redirect to ArticlesController->getSingle(1)
-- POST /articles        will redirect to ArticlesController->addSingle()
+- **GET /articles**         will redirect to **ArticlesController->listAll()**
+- **GET /articles/1**       will redirect to **ArticlesController->getSingle(1)**
+- **POST /articles**        will redirect to **ArticlesController->addSingle()**
 
-see /Defined/index.php for more info.
+See **/Defined/index.php** for more info.
