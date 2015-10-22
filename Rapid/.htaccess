@@ -1,4 +1,0 @@
-#todo: handle white spaces in URLs asd.com/asd/ / / GIVES 403
-
-RewriteEngine On
-RewriteRule ^(.*)$ index.php [PT,L]

@@ -1,9 +1,0 @@
-{
-  "database" : {
-    "driver" : "mysql",
-    "host" : "localhost",
-    "db" : "articles",
-    "user" : "root",
-    "password" : ""
-  }
-}
