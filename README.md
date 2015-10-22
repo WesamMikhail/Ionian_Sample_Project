@@ -1,7 +1,8 @@
 # Ionian Sample Project
 
-This project actually contains 2 example project settings. One sample is using the Rapid routing which is basically a fast prototyping router.
-The second one is using Defined which is a REST Router that supports GET, POST, PUT and DELETE verbs.
+This project actually contains 2 example project settings. The first sample is using the **Rapid** routing which is basically a fast prototyping router.
+
+The second one is using **Defined** which is a REST Router that supports GET, POST, PUT and DELETE verbs.
 
 # Installation
 
@@ -24,7 +25,6 @@ RewriteEngine On
 RewriteRule ^(.*)$ example_rapid.php [PT,L]
 
 # To see Defined
-
 RewriteEngine On
 RewriteRule ^(.*)$ example_defined.php [PT,L]
 
