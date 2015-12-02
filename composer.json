@@ -16,18 +16,7 @@
       "Project\\": "Project/"
     }
   },
-  "repositories": [
-    {
-      "url": "https://github.com/WesamMikhail/Ionian.git",
-      "type": "git"
-    },
-    {
-      "url": "https://github.com/WesamMikhail/SimpleRouter.git",
-      "type": "git"
-    }
-  ],
   "require": {
-    "Lorenum/Ionian": "dev-master",
-    "Lorenum/SimpleRouter": "dev-master"
+    "lorenum/ionian": "0.1"
   }
 }
